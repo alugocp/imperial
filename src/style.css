@@ -1,0 +1,42 @@
+/* General */
+ImperialWidget{
+  background-color:#ffffff;
+}
+QLabel{
+  color:#545454;
+}
+
+/* Loading */
+LoadWidget{
+  background-color:#a3f7a3;
+}
+
+/* MIME bar */
+MimeHeader{
+  border-bottom:2px solid black;
+  background-color:#b5b5b5;
+}
+MimeHeader QLabel{
+  font-weight:bold;
+}
+MimeList{
+  border-bottom:2px solid black;
+}
+
+/* Icon slot */
+IconSlot{
+  border:10px solid #3ce63c;
+  border-radius:25px;
+}
+
+/* Description */
+DescWidget{
+  background-color:#f4f4f4;
+}
+DescWidget QLabel{
+  font-size:25px;
+}
+Title{
+  font-weight:bold;
+  color:#3ce63c;
+}

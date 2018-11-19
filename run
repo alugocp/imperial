@@ -1,0 +1,10 @@
+#!/bin/bash
+make > .log
+if [ $? != 0 ]; then
+  cat .log
+  rm .log
+  exit
+fi
+export PYTHONPATH="~/Desktop/imperial/bin"
+python bin/imperial.pyc
+rm .log
